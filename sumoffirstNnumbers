@@ -1,0 +1,11 @@
+class Solution{	
+	public:
+        int sum(int n){
+            if(n==0) return;
+            return n+sum(n-1);
+        }
+		int NnumbersSum(int N){
+			//your code goes here
+            return sum(N);
+		}
+};

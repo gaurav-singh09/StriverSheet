@@ -26,3 +26,14 @@ public:
         }
     }
 };
+
+
+
+
+//recursive call function 
+void printName(string s, int n){
+    if(n==0) return;
+    cout<<"hey"<<" "<<s;
+    n--;
+    printName(s,n);
+}
